@@ -1,0 +1,88 @@
+/* CSS, nothing fancy here just a nice earthy color scheme I looked up as well as a background image. */
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/1087589.jpg");
+  background-color: rgb(255,255,255);
+}
+
+.App {
+  text-align: center;
+}
+
+.addHeader{
+  background-color: #b7b7a4;
+  color: rgb(5, 0, 0);
+}
+
+.editHeader{
+  background-color: #b7b7a4;
+  color: rgb(5, 0, 0);
+}
+
+.editRow{
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.inputRow{
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.listHeader {
+  text-align: center;
+  background-color: #6b705c;
+  color:#000503
+}
+
+.radio {
+  font-size: 12px;
+  background-color: #cb997e;
+  color: rgb(5, 0, 0);
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.exerciseRow {
+  background-color:#ffe8d6;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #b7b7a4;
+  color: rgb(5, 0, 0);
+}
+
+.addLink{
+  background-color: #cb997e;
+  color: rgb(5, 0, 0);
+}
